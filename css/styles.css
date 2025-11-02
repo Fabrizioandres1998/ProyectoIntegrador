@@ -55,13 +55,51 @@ h1 {
     border-bottom-left-radius: 20px;
 }
 
-
 .contenido {
     display: flex;
     margin: 50px;
 }
 
-.contenido img {
-    width: 50%;
+.carrusel {
+    position: relative;
+    display: inline-block;
     margin-left: 50px;
+}
+
+.carrusel img {
+    display: block;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.btn-carrusel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.btn-carrusel:hover {
+    background-color: rgba(129, 81, 250, 0.7);
+}
+
+#boton-izquierda {
+    left: 10px;
+}
+
+#boton-derecha {
+    right: 10px;
 }
