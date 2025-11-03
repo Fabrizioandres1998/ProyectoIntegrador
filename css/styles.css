@@ -103,3 +103,59 @@ h1 {
 #boton-derecha {
     right: 10px;
 }
+
+form {
+    background-color:  #8151fa;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: 40px;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #0e0d0d;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 4px rgba(74,144,226,0.3);
+}
+
+button {
+    width: 100%;
+    background-color:  white;
+    margin-top: 5px;
+    color: black;
+   border-radius: 8px;
+    padding: 12px;
+    font-size: 20;
+   
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
