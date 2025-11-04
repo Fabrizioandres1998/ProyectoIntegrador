@@ -104,7 +104,7 @@ h1 {
     right: 10px;
 }
 
-form {
+.form {
     background-color: #8151fa ;
     padding: 30px 40px;
     border-radius: 15px;
@@ -140,7 +140,7 @@ input, textarea {
     margin-bottom: 15px; 
 }
 
-button {
+.btnENviar {
     width: 100%;
     background-color:#8151fa  ;
     margin-top: 5px;
