@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #555555;
 }
 
 h1 {
@@ -93,7 +94,7 @@ h1 {
 }
 
 .btn-carrusel:hover {
-    background-color: rgba(129, 81, 250, 0.7);
+    background-color: rgba(75, 0, 130, 0.7);
 }
 
 #boton-izquierda {
@@ -162,7 +163,7 @@ textarea {
 
 .btn-formulario:hover {
     background-color: white;
-    color: #8151fa;
+    color: #4b0082;
     cursor: pointer;
 
 }
@@ -180,6 +181,7 @@ textarea {
     color: white;
     font-size: 19px;
 }
+
 .productos {
     display: flex;
     flex-direction: column;
@@ -199,7 +201,7 @@ textarea {
 }
 
 .producto.invertido {
-    flex-direction: row-reverse; 
+    flex-direction: row-reverse;
 }
 
 .descripcion {
@@ -209,8 +211,9 @@ textarea {
 
 .descripcion h2 {
     font-size: 1.8em;
-    color: #333;
+    color: #4b0082;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .descripcion p {
@@ -220,5 +223,5 @@ textarea {
 
 img {
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
