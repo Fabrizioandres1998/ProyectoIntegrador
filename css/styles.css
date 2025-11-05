@@ -180,3 +180,45 @@ textarea {
     color: white;
     font-size: 19px;
 }
+.productos {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.producto.invertido {
+    flex-direction: row-reverse; 
+}
+
+.descripcion {
+    max-width: 450px;
+    font-family: Arial, sans-serif;
+}
+
+.descripcion h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.descripcion p {
+    margin: 6px 0;
+    line-height: 1.5;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
