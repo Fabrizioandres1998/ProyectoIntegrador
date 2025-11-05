@@ -2,6 +2,7 @@ const botonDerecha = document.getElementById("boton-derecha");
 const botonIzquierda = document.getElementById("boton-izquierda");
 const imagen = document.getElementById("imagen")
 
+
 botonDerecha.addEventListener("click", function () {
     if (imagen.src.includes("1.jpg")) {
         imagen.src = "assets/2.jpg";
