@@ -1,8 +1,8 @@
 const botonDerecha = document.getElementById("boton-derecha");
 const botonIzquierda = document.getElementById("boton-izquierda");
-const imagen = document.getElementById("imagen")
+const imagen = document.getElementById("imagen");
 
-
+// al hacer click en el boton derecha
 botonDerecha.addEventListener("click", function () {
     if (imagen.src.includes("1.jpg")) {
         imagen.src = "assets/2.jpg";
@@ -13,6 +13,7 @@ botonDerecha.addEventListener("click", function () {
     }
 });
 
+// al hacer click en el boton izquierda
 botonIzquierda.addEventListener("click", function () {
     if (imagen.src.includes("1.jpg")) {
         imagen.src = "assets/3.jpg";

@@ -225,3 +225,12 @@ img {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.error {
+    color: #ffcccb;
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+}
