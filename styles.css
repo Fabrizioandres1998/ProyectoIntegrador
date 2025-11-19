@@ -234,3 +234,9 @@ img {
     display: block;
     font-family: 'Roboto', sans-serif;
 }
+
+.titulo {
+    font-size: 30px;
+    color: #4b0082;
+    font-weight: bold;
+}
